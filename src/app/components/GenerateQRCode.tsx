@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { QRCodeCanvas } from 'qrcode.react'; 
 
 export default function GenerateQRCode() {
-  const [url, setUrl] = useState('http://localhost:3000/product-page');
+  const url= 'http://localhost:3000/product-page';
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-300 to-blue-400 p-6">
